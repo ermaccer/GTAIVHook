@@ -1,17 +1,19 @@
-#include "includes.h"
+#include <Windows.h>
+#include <d3d9.h>
 #include <iostream>
+#include "imgui/imgui.h"
+#include "imgui/imgui_impl_win32.h"
+#include "imgui/imgui_impl_dx9.h"
+
 #include "code/gtaivmenu.h"
 #include "code/gtaivutils.h"
 #include "pattern/Hooking.Patterns.h"
 #include "MemoryMgr.h"
-#include <d3d9.h>
 
 using namespace Memory::VP;
 
 extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
-
-EndScene oEndScene = NULL;
 WNDPROC oWndProc;
 
 

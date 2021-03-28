@@ -63,9 +63,6 @@
     <ClInclude Include="code\gtaivutils.h">
       <Filter>Header Files\code</Filter>
     </ClInclude>
-    <ClInclude Include="includes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="pattern\Hooking.Patterns.h">
       <Filter>Header Files\pattern</Filter>
     </ClInclude>
